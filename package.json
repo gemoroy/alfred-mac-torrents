@@ -1,0 +1,38 @@
+{
+  "name": "alfred-mac-torrents",
+  "version": "1.0.0",
+  "description": "workflow for Alfred3 to crawl mac-torrents.com and return .torrent",
+  "license": "MIT",
+  "repository": "gemoroy/alfred-mac-torrents",
+  "author": {
+    "name": "Sergey Baranov",
+    "email": "mr.gemoroy@icloud.com",
+    "url": "https://github.com/gemoroy"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
